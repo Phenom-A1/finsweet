@@ -1,0 +1,209 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* header_styling */
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: goldenrod; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 12px 10px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+  border-right: 2px solid rgba(102, 95, 95, 0.491);
+  padding: 5px 25px 5px 0px;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+nav .phone_contact {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+nav .phone_contact .contact_text p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* main_styling */
+
+main {
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+main .container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+main .container .left_content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .container .left_content .text_content {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+main .container .left_content .text_content button {
+  font-size: 12px;
+  margin: 30px 2px;
+  padding: 15px 30px;
+  border-radius: 12px;
+  border: 0px;
+  background-color: #ff6433;
+  color: white;
+}
+
+main .container .left_content .text_content .open {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+main .container .left_content .text_content .open caption {
+  color: gray;
+}
+
+main .container .left_content .text_content .open p {
+  color: black;
+}
+
+main .container .left_content .text_content .open img {
+  margin: 10px;
+}
+
+main .container .right_content {
+  width: 50%;
+  height: 100%;
+  background-image: url("/images/Image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 10px;
+}
+
+main .container .right_content .service {
+  height: 100px;
+  width: 270px;
+  background-color: rgba(196, 187, 187, 0.45);
+  position: absolute;
+  top: 10%;
+  left: -8%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .container .right_content .service .s_inner {
+  height: 80%;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+main .container .right_content .service .s_inner .left_inner {
+  height: 60px;
+  width: 60px;
+  background-color: #5cba99;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 0px 10px;
+  padding: 0px 13px;
+}
+
+main .container .right_content .service .s_inner .left_inner .time {
+  font-size: 13px;
+}
+
+main .container .right_content .service .s_inner .right_inner {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+main .container .right_content .rating {
+  height: 100px;
+  width: 270px;
+  background-color: rgba(196, 187, 187, 0.45);
+  position: absolute;
+  bottom: 10%;
+  right: -6%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .container .right_content .rating .r_inner {
+  height: 80%;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  line-height: 17px;
+}
+
+main .container .right_content .rating .r_inner .left_inner {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  padding-right: 10px;
+  font-weight: 550;
+}
+
+main .container .right_content .rating .r_inner .left_inner .p_text {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 100;
+}
